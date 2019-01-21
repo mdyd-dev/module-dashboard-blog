@@ -11,7 +11,7 @@ query get_blog_instance(
     per_page: 1
     page: 1
     user_id: $current_user_id
-    name: "blog_instance"
+    name: "modules/dashboard_blog/blog_instance"
     properties: [
       { name: "enabled", value: $enabled }
       { name: "sidebar_enabled", value: $sidebar_enabled }
