@@ -19,7 +19,7 @@ query get_blog_posts(
     page: $page
     id: $id
     without_ids: $except_ids
-    name: "blog_post"
+    name: "modules/dashboard_blog/blog_post"
     sort: [
       {
         name: "properties.published_at"
