@@ -1,12 +1,11 @@
-query get_blog_user
-{
+query get_blog_user {
   current_user {
     id
     slug
     first_name
     email
 
-    admin_profile: profile(profile_type: "dashboard") {
+    admin_profile: profile(profile_type: "modules/dashboard/dashboard") {
       id
     }
   }
